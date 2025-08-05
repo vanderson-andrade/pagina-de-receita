@@ -1,64 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Configurações básicas da página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aprenda a fazer um delicioso cupcake de café com chantilly com essa receita fácil e saborosa.">
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- Estilos externos -->
+    <link rel="stylesheet" href="./css/reset.css"> <!-- Reset padrão para remover estilos nativos dos navegadores -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- Estilo principal da página -->
+
+    <!-- Biblioteca de ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Receita - Cupcake de café com chantilly</title>
 </head>
 <body>
     <main>
+        <!-- Container principal da página -->
         <div class="container">
+
+            <!-- Cabeçalho com imagem ilustrativa da receita -->
             <header>
                 <img src="./img/main-image.png" alt="Imagem de tres cupcakes de café com chantilly sobre pratos brancos">
             </header>
-            <section class="descricao">
-                <h1 class="title-main">
-                    Cupcake de café com chantilly
-                </h1>
-                <p class="text-descricao">
-                    O bolinho perfeito para acompanhar o café de todos os dias. É muito fácil e ainda por cima fica maravilhoso, com certeza vai impressionar. Faz e depois me conta o que achou!
-                </p>
-                <div class="detalhes">
-                    <p class="text-detalhes">
-                        Tempo: 1h10 <br>
-                        Rendimento: 12 porções <br>
-                        Dificuldade: fácil
-                    </p>                     
-                </div>    
-            </section>
-            <section class="ingredientes">
-                <h2 class="title-secundary">Ingredientes</h2>
-                <ul>
-                    <li>1 e 1/2 xícara (chá) de água morna</li>
-                    <li>1 colher (sopa) de café solúvel</li>
-                    <li>3 ovos</li>
-                    <li>1/2 xícara (chá) de óleo</li>
-                    <li>2 xícaras (chá) de açúcar</li>
-                    <li>2/3 de xícara (chá) de chocolate em pó</li>
-                    <li>2 e 1/2 xícaras (chá) de farinha de trigo</li>
-                    <li>1 colher (sopa) de fermento em pó químico</li>
-                    <li>2 xícaras (chá) de chantilly pronto</li>
-                    <li>Grãos de café para decorar</li>
-                    <li>1 lata de leite condensado</li>
-                    <li>1 colher (sopa) de café solúvel</li>
-                    <li>1 colher (sopa) de chocolate em pó</li>
-                    <li>2 colheres (sopa) de manteiga</li>
-                </ul>
-            </section>
-            <section class="preparo">
-                <h2 class="title-secundary">Modo de preparo</h2>
-                <p class="text-preparo">No liquidificador, bata a água, o café solúvel, os ovos, o óleo, o açúcar e o chocolate em pó até ficar homogêneo. Transfira para uma tigela, adicione a farinha e o fermento e misture com uma colher. Despeje em forminhas para cupcakes forradas com forminhas de papel e coloque em uma fôrma grande, um ao lado do outro. Leve ao forno médio, preaquecido, por 25 minutos ou até assar e dourar. Retire e deixe esfriar. </p>
-                <p class="text-preparo">Para o recheio, leve todos os ingredientes ao fogo médio, mexendo bem até engrossar. Desligue, deixe esfriar e coloque dentro de um saco de confeiteiro com bico perle. Reserve. Coloque o chantilly dentro de um saco de confeiteiro com bico pitanga e reserve. </p>
-                <p class="text-preparo">Para a montagem, faça um furo no centro dos cupcakes e recheie com o brigadeiro de café reservado. Decore as superfícies dos cupcakes com o chantilly reservado, fazendo círculos. Decore com grãos de café e leve à geladeira até o momento de servir.</p>
-            </section>        
+
+            <div class="conteudo">
+
+                <!-- Seção com o título e descrição da receita -->
+                <section class="descricao">
+                    <h1 class="heading1">Cupcake de café com chantilly</h1>
+                    <p class="text-descricao">
+                         O bolinho perfeito para acompanhar o café de todos os dias. É muito fácil e ainda por cima fica maravilhoso, com certeza vai impressionar. Faz e depois me conta o que achou!
+                    </p>
+
+                    <!-- Informações adicionais: tempo, porções, dificuldade -->
+                    <div class="detalhes">
+                        <p class="text-detalhes">
+                            Tempo: 1h10 <br>
+                            Rendimento: 12 porções <br>
+                            Dificuldade: fácil
+                        </p>                     
+                    </div>    
+                </section>
+
+                <!-- Lista de ingredientes necessários para a receita -->
+                <section class="ingredientes">
+                    <h2 class="heading2">Ingredientes</h2>
+                    <ul class="lista-ingredientes">
+                        <!-- Ingredientes listados em ordem -->
+                        <li>1 e 1/2 xícara (chá) de água morna</li>
+                        <li>1 colher (sopa) de café solúvel</li>
+                        <li>3 ovos</li>
+                        <li>1/2 xícara (chá) de óleo</li>
+                        <li>2 xícaras (chá) de açúcar</li>
+                        <li>2/3 de xícara (chá) de chocolate em pó</li>
+                        <li>2 e 1/2 xícaras (chá) de farinha de trigo</li>
+                        <li>1 colher (sopa) de fermento em pó químico</li>
+                        <li>2 xícaras (chá) de chantilly pronto</li>
+                        <li>Grãos de café para decorar</li>
+                        <li>1 lata de leite condensado</li>
+                        <li>1 colher (sopa) de café solúvel</li>
+                        <li>1 colher (sopa) de chocolate em pó</li>
+                        <li>2 colheres (sopa) de manteiga</li>
+                    </ul>
+                </section>
+
+                <!-- Passo a passo do preparo da receita -->
+                <section class="preparo">
+                    <h2 class="heading2">Modo de preparo</h2>
+
+                    <!-- Preparo da massa -->
+                    <p class="text-preparo">
+                        No liquidificador, bata a água, o café solúvel, os ovos, o óleo, o açúcar e o chocolate em pó até ficar homogêneo. Transfira para uma tigela, adicione a farinha e o fermento e misture com uma colher. Despeje em forminhas para cupcakes forradas com forminhas de papel e coloque em uma fôrma grande, um ao lado do outro. Leve ao forno médio, preaquecido, por 25 minutos ou até assar e dourar. Retire e deixe esfriar. 
+                    </p>    
+
+                    <!-- Preparo do recheio -->
+                    <p class="text-preparo">
+                        Para o recheio, leve todos os ingredientes ao fogo médio, mexendo bem até engrossar. Desligue, deixe esfriar e coloque dentro de um saco de confeiteiro com bico perle. Reserve. Coloque o chantilly dentro de um saco de confeiteiro com bico pitanga e reserve.
+                    </p>  
+
+                    <!-- Montagem final do cupcake -->
+                    <p>
+                        Para a montagem, faça um furo no centro dos cupcakes e recheie com o brigadeiro de café reservado. Decore as superfícies dos cupcakes com o chantilly reservado, fazendo círculos. Decore com grãos de café e leve à geladeira até o momento de servir.
+                    </p>
+                </section>            
+            </div>        
         </div>
+
+        <!-- Rodapé com link para GitHub -->
         <footer>
-            <p class="text-footer">Desenvolvido por: <a href="https://github.com/vanderson-andrade" target="_blank">Vanderson Andrade</a></p>
+            <p class="text-footer">
+                Developed by: 
+                <a href="https://github.com/vanderson-andrade" target="_blank">
+                    Vanderson Andrade 
+                    <i class="fab fa-github fa-xs" style="color: #f0e8c2;"></i>
+                </a>
+            </p>
         </footer>
     </main>
 </body>

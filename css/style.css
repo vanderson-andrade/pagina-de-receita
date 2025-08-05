@@ -1,0 +1,103 @@
+/* Importa a fonte "Alice" do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+/* Variáveis globais de cor */
+:root {
+    --background-color: #573824;               /* Cor de fundo geral da página */
+    --surface-color: #F0E8C2;                  /* Cor de superfície (ex: containers, cards) */
+    --text-color-primary: #291B1A;             /* Cor principal dos títulos */
+    --text-color-secondary: #573A37;           /* Cor secundária dos textos */
+    --text-color-on-bg: #f0e8c2;    /* Cor clara para textos sobre fundos escuros */
+}
+
+/* Estilo do elemento principal (main) */
+main {
+    background: url(../img/bg-image.png) var(--background-color) no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: "Alice", serif;              /* Usa a fonte serifada importada */
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color-secondary);       /* Aplica cor secundária no texto padrão */
+}
+
+/* Centraliza a imagem do header */
+header > img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Container principal da receita */
+.container {
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: var(--surface-color);   /* Cor de superfície */
+    border-radius: 20px;                      /* Arredonda as bordas do container */
+}
+
+/* Espaçamento interno do conteúdo */
+.conteudo {
+    padding: 24px;
+}
+
+/* Título principal da receita */
+.heading1 {
+    font-size: 40px;
+    line-height: 1.4;
+    color: var(--text-color-primary);
+    margin-bottom: 4px;
+}
+
+/* Informações adicionais (tempo, rendimento etc.) */
+.detalhes {
+    margin-top: 12px;
+}
+
+/* Subtítulos das seções (ex: Ingredientes, Modo de Preparo) */
+.heading2 {
+    font-size: 24px;
+    margin-bottom: 4px;
+    color: var(--text-color-primary);
+}
+
+/* Seção de ingredientes com espaçamento vertical */
+.ingredientes {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* Lista de ingredientes com marcadores */
+.lista-ingredientes {
+    list-style: disc;
+    margin-left: 25px;
+}
+
+/* Parágrafos do modo de preparo */
+.text-preparo {
+    margin-bottom: 12px;
+}
+
+/* Rodapé da página */
+footer {
+    color: var(--text-color-on-bg);           /* Usa texto claro sobre fundo escuro */
+    text-align: center;
+    padding: 28px;
+}
+
+/* Links dentro do rodapé */
+footer a {
+    color: var(--text-color-on-bg);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse nos links do rodapé */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Ícone do GitHub no rodapé */
+footer i {
+    margin: 4px;
+}
