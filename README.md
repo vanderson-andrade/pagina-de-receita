@@ -2,13 +2,13 @@
 
 Projeto de página de receita desenvolvido como exercício prático de HTML e CSS.
 
----
+
 
 ## 🧾 Objetivo
 
 Praticar a construção de páginas web utilizando **HTML** e **CSS** básicos, com foco em estrutura semântica, estilização e organização de conteúdo.
 
----
+
 
 ## 🚀 Tecnologias utilizadas
 
@@ -17,13 +17,13 @@ Praticar a construção de páginas web utilizando **HTML** e **CSS** básicos, 
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
 </p>
 
----
+
 
 ## 🎨 Créditos
 
 O design do projeto foi inspirado em um layout proposto pela **[Rocketseat](https://www.rocketseat.com.br/)**.
 
----
+
 
 ## 👨‍💻 Desenvolvedor
 
